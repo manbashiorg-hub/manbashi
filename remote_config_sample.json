@@ -36,12 +36,6 @@
       "notes": "github（raw）"
     },
     {
-      "url": "https://manbashiorg-hub.github.io/manbashi/remote_config_sample.json",
-      "versionHint": "2025.12.16.1",
-      "priority": 2,
-      "notes": "github（Pages）"
-    },
-    {
       "url": "https://appapi.manbashi.org",
       "versionHint": "2025.12.16.1",
       "priority": 3,
