@@ -30,9 +30,15 @@
   ],
   "remoteEndpoints": [
     {
-      "url": "https://raw.githubusercontent.com/manbashiorg-hub/manbashi/refs/heads/main/remote_config_sample.json",
+      "url": "https://manbashiorg-hub.github.io/manbashi/remote_config_sample.json",
       "versionHint": "2025.12.16.1",
       "priority": 1,
+      "notes": "github（pages）"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/manbashiorg-hub/manbashi/refs/heads/main/remote_config_sample.json",
+      "versionHint": "2025.12.16.1",
+      "priority": 2,
       "notes": "github（raw）"
     },
     {
@@ -42,5 +48,4 @@
       "notes": "永久地址（cf-workers）"
     }
   ]
-
 }
