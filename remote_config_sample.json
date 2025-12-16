@@ -13,19 +13,39 @@
     },
     {
       "id": "cn_south_backup",
-      "name": "备用线路",
-      "cdnDomain": "cdn-south.manbashi.com",
-      "webUrl": "https://cdn-south.manbashi.com",
+      "name": "备用线路1",
+      "cdnDomain": "www.manbashi.com",
+      "webUrl": "https://www.manbashi.com",
+      "priority": 9,
+      "description": "备用线路"
+    },
+    {
+      "id": "cn_south_backup",
+      "name": "备用线路2",
+      "cdnDomain": "www.manbashi.com",
+      "webUrl": "https://www.manbashi.com",
       "priority": 8,
-      "description": "广州 BGP 节点，适合移动/海外回国访问"
+      "description": "备用线路"
     }
   ],
   "remoteEndpoints": [
     {
-      "url": "https://www.manbashi.com/app-api/remote_config_sample.json",
+      "url": "https://raw.githubusercontent.com/manbashiorg-hub/manbashi/refs/heads/main/remote_config_sample.json",
       "versionHint": "2025.12.16.1",
       "priority": 1,
-      "notes": "主配置 CDN（香港）"
+      "notes": "github（raw）"
+    },
+    {
+      "url": "https://manbashiorg-hub.github.io/manbashi/remote_config_sample.json",
+      "versionHint": "2025.12.16.1",
+      "priority": 2,
+      "notes": "github（Pages）"
+    },
+    {
+      "url": "https://appapi.manbashi.org",
+      "versionHint": "2025.12.16.1",
+      "priority": 3,
+      "notes": "永久地址（cf-workers）"
     }
   ]
 }
