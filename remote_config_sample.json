@@ -1,10 +1,10 @@
 {
   "_comment": "远程接口文件，App 获取任意一个 JSON 即可获得完整线路与其他接口地址。",
   "version": "2025.12.16.1",
-  "defaultRouteId": "cn_east_main",
+  "defaultRouteId": "cn_backup_1",
   "routes": [
     {
-      "id": "cn_east_main",
+      "id": "cn_backup_1",
       "name": "主站线路",
       "cdnDomain": "www.manbashi.com",
       "webUrl": "https://www.manbashi.com",
@@ -12,7 +12,7 @@
       "description": "如主站线路不可用，请选择备用线路"
     },
     {
-      "id": "cn_south_backup",
+      "id": "cn_backup_2",
       "name": "备用线路1",
       "cdnDomain": "www.manbashi.com",
       "webUrl": "https://www.manbashi.com",
@@ -20,7 +20,7 @@
       "description": "备用线路"
     },
     {
-      "id": "cn_south_backup",
+      "id": "cn_backup_3",
       "name": "备用线路2",
       "cdnDomain": "www.manbashi.com",
       "webUrl": "https://www.manbashi.com",
