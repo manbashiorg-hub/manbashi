@@ -2,6 +2,19 @@
   "_comment": "远程接口文件，App 获取任意一个 JSON 即可获得完整线路与其他接口地址。",
   "version": "2025.12.16.1",
   "defaultRouteId": "cn_backup_1",
+  "appUpdate": {
+    "latestVersionCode": 1,
+    "latestVersionName": "1.1.0",
+    "androidDownloadUrl": "https://static.manbashi.com/app/ManBaShi_v_fakeTesting.apk",
+    "forceUpdate": false,
+    "releaseNotes": [
+      "【测试】线路测速体验优化",
+      "【测试】新增占位文案，验证更新弹窗",
+      "【测试】本次更新仅用于演示效果"
+    ],
+    "dialogTitle": "测试版更新",
+    "dialogMessage": "这是一个假的更新提示，用于验证弹窗效果。是否前往查看？"
+  },
   "routes": [
     {
       "id": "cn_backup_1",
@@ -9,23 +22,7 @@
       "cdnDomain": "www.manbashi.com",
       "webUrl": "https://www.manbashi.com",
       "priority": 10,
-      "description": "如主站线路不可用，请选择备用线路"
-    },
-    {
-      "id": "cn_backup_2",
-      "name": "备用线路1",
-      "cdnDomain": "www.manbashi.com",
-      "webUrl": "https://www.manbashi.com",
-      "priority": 9,
-      "description": "备用线路"
-    },
-    {
-      "id": "cn_backup_3",
-      "name": "备用线路2",
-      "cdnDomain": "www.manbashi.com",
-      "webUrl": "https://www.manbashi.com",
-      "priority": 8,
-      "description": "备用线路"
+      "description": "主站线路，备用线路暂未启用，如无法访问请发生邮件至：manbashi.org@gmail.com。"
     }
   ],
   "remoteEndpoints": [
