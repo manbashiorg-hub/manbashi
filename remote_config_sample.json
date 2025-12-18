@@ -22,7 +22,7 @@
       "cdnDomain": "www.manbashi.com",
       "webUrl": "https://www.manbashi.com",
       "priority": 10,
-      "description": "主站线路，备用线路暂未启用，如无法访问请发生邮件至：manbashi.org@gmail.com。"
+      "description": "主站线路，备用线路暂未启用，如无法访问请发送邮件至：manbashi.org@gmail.com。"
     }
   ],
   "remoteEndpoints": [
